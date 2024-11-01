@@ -18,7 +18,7 @@ namespace Agenda_de_contacto
         string cadena;
         public ConexionBD()
         {
-            cadena = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source= ContactosL.accdb" ;
+            cadena = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source= ../../base/AgendaGarcia.accdb" ;
         }
 
         public DataTable ObtenerContactosPorCategoria()
